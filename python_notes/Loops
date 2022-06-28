@@ -1,0 +1,49 @@
+#Forloops
+
+#favSongs = ["song1", "song2", "song3"]
+#num1 = 10
+
+# #i = a random variable often referrd to as i
+# for i in favSongs:
+#     print(i)
+#     #on loop 1 i = the foundations
+#     #keeps looping through starting with the fist item until there are no more items
+
+# for i in range (range): #cycles through numbers 1 to 9
+#     print(i)
+
+#increment by 1
+# for i in range (2, 10, 2): #cycles through numbers 1 to 9
+#     print(i)
+
+
+#countdown
+#for i in range(10, -1, -1):
+    #print (i)
+    #why does it count down/
+    #first parameter (10) = starting number
+    #second parameter (-1) is the stop number
+    #third parameter (-1)= step number or increment number
+
+# num1 = 0
+# while num1 < 10:
+#     num1 += 1 #adds =+1 with eac
+#     print(num1)
+
+#     if num1 == 10:
+#         print(f"num1 is equal to 10")
+
+#random number generator
+# from random import randint
+
+
+# myNumber = randint(0, 11)
+# #myNumber = input
+# computerNumber = randint(0, 11)
+# print (myNumber)
+# print(computerNumber)
+
+# while myNumber != computerNumber:
+#     print(f"The numbers {myNumber} and {computerNumber} do not match")
+#     computerNumber = randint(0, 11)
+# print(f"The numbers {myNumber} and {computerNumber} MATCH!")

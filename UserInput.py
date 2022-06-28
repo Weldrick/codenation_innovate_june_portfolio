@@ -70,7 +70,7 @@
 # LightSwitch()
 
 #order of parameters are very important
-def cashWithdrawal(amount, accnum):
-    print(f"Withdrawing £{amount} from account number: {accnum}")
+# def cashWithdrawal(amount, accnum):
+#     print(f"Withdrawing £{amount} from account number: {accnum}")
 
-cashWithdrawal(200, 88888888, )
+# cashWithdrawal(200, 88888888, )
