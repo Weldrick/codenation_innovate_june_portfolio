@@ -61,12 +61,12 @@
 
 # print(f"{num} = Odd")
 
-while True:
-    num=randint(1, 51)
-    print(num)
-    if num % 2 == 0:
-        print("We like even numbers")
-        continue
-    else:
-        print("An odd number")
-        break
+# while True:
+#     num=randint(1, 51)
+#     print(num)
+#     if num % 2 == 0:
+#         print("We like even numbers")
+#         continue
+#     else:
+#         print("An odd number")
+#         break
