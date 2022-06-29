@@ -1,12 +1,15 @@
 #dictionaries are encased using {}
 #dictionaries have no referencable index
 
-#names = {"keith, 23", "Ramon, 44, Heather, 22"}
-#print(names)
-
 # pets = {"name": "Clouds",
 #         "colour": "White",
 #         "mood": "Whiney"}
+
+cats = {"name" : "cat1", "colour" : "Blue", "mood" : "Sad"}
+print(cats)
+cats.update({"name" : "cat2", "colour" : "Red", "mood" : "Happy"})
+print(cats)
+
 #print(pets)
 #print(pets[2]) #throws akey error
 # print(pets["mood"]) #method of accessing data KEY
