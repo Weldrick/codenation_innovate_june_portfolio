@@ -1,0 +1,66 @@
+/* methods of applying css */
+/* inline */
+/* internal style sheet */
+/* external style sheet */
+
+/* group selector = combining attributes to edit  */
+/* this can be dont by declaring them together */
+
+/* wildcard seletor selects all elements */
+/* If we want to target specific elements we can use a class */
+/* ID overrides all other elements */
+/* class have middle authority below ID */
+
+/* CONTENT - PADDING - BORDER - MARGIN */
+
+header{
+    background-color: silver;
+    /* background-color: black; */
+    text-align: center;
+}
+
+footer{
+    background-color: silver;
+    /* background-color: black; */
+    text-align: center;
+}
+
+body{
+background-color:whitesmoke
+}
+
+/* When referencing a class make sure then is a . beforehand */
+.Myclass1 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#leftNav{
+    background-color: silver;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    width: 10%;
+}
+
+ul{
+    list-style: none;
+}
+
+a:hover{
+    color: blue;
+}
+/* a: = is the reference for links only */
+/* changes hover colour of all links */
+
+img:hover{
+    /* border: 1px solid blue; */
+}
+

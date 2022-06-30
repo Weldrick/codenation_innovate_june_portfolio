@@ -3,8 +3,10 @@ countries = {"England" : "London", "France" : "Paris", "Germany" : "Berlin", "Sp
 #print(countries)
 
 #adds more countries to the dictionary(Norway & Japan)
+
 countries.setdefault("Norway", "Oslo")
 countries.setdefault("Japan", "Tokyo")
+#this method uses the dot notation method
 
 
 print(list(countries)) #A clean method of printing the countries(keys only)
