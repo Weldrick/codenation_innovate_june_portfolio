@@ -1,17 +1,17 @@
-/* methods of applying css */
-/* inline */
-/* internal style sheet */
-/* external style sheet */
 
-/* group selector = combining attributes to edit  */
-/* this can be dont by declaring them together */
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
-/* wildcard seletor selects all elements */
-/* If we want to target specific elements we can use a class */
-/* ID overrides all other elements */
-/* class have middle authority below ID */
+@font-face {
+    font-family: blame;
+    src: url('Fonts/BLAME.ttf')
+    /* this font is stored locally */
+}
 
-/* CONTENT - PADDING - BORDER - MARGIN */
+* {
+    /* wildcard refernce changes everyhting */
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: blame;
+}
 
 header{
     background-color: silver;
@@ -21,8 +21,6 @@ header{
 
 footer{
     background-color: silver;
-    /* background-color: black; */
-    text-align: center;
 }
 
 body{
@@ -30,22 +28,33 @@ background-color:whitesmoke
 }
 
 /* When referencing a class make sure then is a . beforehand */
-.Myclass1 {
+p {
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.MyClass2{
+    float: right;
 }
 
 h1{
     color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Sedgwick Ave Display', cursive;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
 
+img{
+    float: left;
+}
+
 #leftNav{
     background-color: silver;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Sedgwick Ave Display', cursive;
     text-align: left;
     width: 10%;
 }
@@ -57,5 +66,3 @@ ul{
 a:hover{
     color: blue;
 }
-/* a: = is the reference for links only */
-/* changes hover colour of all links */

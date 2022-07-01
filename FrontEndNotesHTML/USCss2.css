@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.box {
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+    width: 400px;
+}
+
+.box1 {
+    background: red;
+}
+
+.box2 {
+    background: blue;
+}
+
+.box3 {
+    background: green;
+}
